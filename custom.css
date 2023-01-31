@@ -1,0 +1,215 @@
+/* Begin Login page section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+.login_wrapper {
+    background-color: #cccccc;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.login_info {
+    background-color: #f5f1d8;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 20px 0;
+}
+.login_info_head {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0ed3c;
+    padding-bottom: 15px;
+}
+.login_info_block {
+    margin-bottom: 8px;
+    padding: 0 30px;
+}
+.login_form {
+    background-color: #f0ed3c;
+    width: 90%;
+    max-width: 500px;
+    -webkit-box-shadow: 1px 2px 18px -1px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 1px 2px 18px -1px rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 2px 18px -1px rgba(0, 0, 0, 0.55);
+    border-radius: 8px;
+    padding: 100px 0;
+}
+.login_form .validate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+.login_form .validate.hide {
+    display: none;
+}
+.login_form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login_form .form-group {
+    margin-bottom: 20px;
+    width: 70%;
+    max-width: 300px;
+}
+.login_form .form-group .form-field {
+    height: 40px;
+    width: 100%;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.login_form .form-group .help-block {
+    display: none;
+    color: red;
+    font-size: 13px;
+}
+
+.login_form .form-group.has-error .help-block {
+    display: block;
+}
+.login_form button {
+    background-color: #9acd32;
+    color: black;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* End Login page section */
+
+/* Begin resume page section */
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: relative;
+    padding: 2%;
+}
+h2 {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+}
+h1 h2 {
+    background-color: green;
+}
+.resume-container {
+    padding: 20px 0;
+}
+.resume-main {
+    max-width: 900px;
+    width: 80%;
+    margin: 0px auto;
+    box-shadow: 5px 5px 5px 5px #54585d33;
+    border-radius: 8px;
+}
+
+.resume-main-top {
+    background-color: #d1f6f0;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    position: relative;
+}
+.resume-main-top img {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    width: 80px;
+}
+
+.resume-main-info {
+    display: flex;
+    padding: 20px;
+}
+.resume-main-info .left-box {
+    background-color: #f8e2e2;
+    position: relative;
+    max-width: 220px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-right: 10px;
+}
+.left-box h3 {
+    background-color: #a9a9a9;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.left-box p {
+    position: relative;
+    text-align: right;
+}
+.right-box h1 {
+    padding: 0;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.right-box .box-div + .box-div {
+    margin-top: 20px;
+}
+.right-box .right-box-content {
+    padding-left: 40px;
+}
+
+.right-box .right-box-content-wrap {
+    padding: 10px 0;
+}
+.right-box .right-box-content-wrap p {
+    font-size: 16px;
+}
+.right-box .right-box-content-wrap span {
+    font-weight: 600;
+}
+
+.right-box .right-box-content-wrap ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .resume-main-top img {
+        position: relative;
+        right: inherit;
+        top: inherit;
+        margin: 0 auto;
+        display: flex;
+    }
+    .resume-main-info { 
+        flex-direction: column;
+    }
+    .resume-main-info .left-box {
+        max-width: 100%;
+    }
+}
+
+
+/* End resume page section */

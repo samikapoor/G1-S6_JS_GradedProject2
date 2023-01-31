@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="custom.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="login_wrapper">
+                <div class="login_info">
+                    <div class="login_info_head">
+                        For Login use below credentials:
+                    </div>
+                    <div class="login_info_block">
+                        <span>Username: </span> greatlearning
+                    </div>
+                    <div class="login_info_block">
+                        <span>Password: </span> password
+                    </div>
+                </div>
+                <div class="login_form">
+                    <div class="validate hide" id="validCredentials">
+                        Please enter valid credentials!
+                    </div>
+                    <form name="loginForm" id="loginForm">
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                name="username"
+                                class="form-field"
+                                placeholder="Username"
+                            />
+                            <div class="help-block">
+                                This field can not be blank
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="password"
+                                name="password"
+                                class="form-field"
+                                placeholder="Password"
+                            />
+                            <div class="help-block">
+                                This field can not be blank
+                            </div>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="common.js"></script>
+    </body>
+</html>
