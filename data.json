@@ -96,10 +96,10 @@
 			"id":2,
 			"basics": 
 			{
-				"name": "Riya",
+				"name": "Giya",
 				"AppliedFor": "Software Engineer",
 				"image": "",
-				"email": "riya@gmail.com",
+				"email": "giya@gmail.com",
 				"phone": "9999999999",
 				"location": 
 				{
@@ -192,7 +192,7 @@
 			"id":3,
 			"basics": 
 			{
-				"name": "Rahul Roy",
+				"name": "Ansul Roy",
 				"AppliedFor": "Manager",
 				"image": "",
 				"email": "roy@gmail.com",
@@ -285,10 +285,10 @@
 			"id":4,
 			"basics": 
 			{
-				"name": "Priya Desai",
+				"name": "Priya Harig",
 				"AppliedFor": "HR",
 				"image": "",
-				"email": "Priya@gmail.com",
+				"email": "priya@gmail.com",
 				"phone": "9999999999",
 				"location": 
 				{
@@ -376,10 +376,10 @@
 			"id":5,
 			"basics": 
 			{
-				"name": "Rakesh Ranjan",
+				"name": "Rajesh Danjan",
 				"AppliedFor": "Manager",
 				"image": "",
-				"email": "Priya@gmail.com",
+				"email": "rajes@gmail.com",
 				"phone": "9999999999",
 				"location": 
 				{
@@ -467,7 +467,7 @@
 			"id":6,
 			"basics": 
 			{
-				"name": "Godse",
+				"name": "Shree",
 				"AppliedFor": "Manager",
 				"image": "",
 				"email": "Priya@gmail.com",
